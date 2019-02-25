@@ -22099,7 +22099,7 @@ const playVideo = __webpack_require__(14);
 const getIceObject = __webpack_require__(33);
 const io = __webpack_require__(31);
 // https://threewolves-call.herokuapp.com/
-const socket = io('http://threewolves-call.herokuapp.com');
+const socket = io('https://threewolves-call.herokuapp.com');
 getIceObject(iceConfig => {
     const connectionObj = {
         host: 'threewolves-peer.herokuapp.com',
